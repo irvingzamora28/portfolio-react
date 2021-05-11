@@ -12,7 +12,7 @@ const Showcase = () => {
                         <h4 className="font-bold">Irving Zamora</h4>
                         <p className="text-gray-500 text-sm">Lorem ipsum dolor sit.</p>
                     </div>
-                    <img src={profile} className="w-20 rounded-full" alt="" />
+                    <img src={profile} className="w-10 h-10 rounded-full" alt="" />
                 </div>
 
                 
@@ -43,7 +43,7 @@ const Showcase = () => {
                 </div>
 
                 <div className="showcase-image mt-10">
-                    <img src={showcaseImage} alt="" />
+                    <img src={showcaseImage} className="lg:w-full lg:h-96" alt="" />
                 </div>
             </section>
         </>

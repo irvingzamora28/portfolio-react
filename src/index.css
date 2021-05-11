@@ -16,3 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   @apply bg-blue-100;
 }
+
+q {
+  font-family: 'Parisienne', cursive;
+}
