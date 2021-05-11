@@ -3,8 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      "xs": "400px",
-      "3xl": "1920px"
+      screns: {
+        "xs": "400px",
+        "3xl": "1920px"
+      }
     },
   },
   variants: {
