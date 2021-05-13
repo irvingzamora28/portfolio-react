@@ -11,7 +11,7 @@ const Articles = () => {
             <section className="grid grid-cols-1 gap-5 px-5 pb-10 sm:grid-cols-2 lg:grid-cols-4 lg:max-w-7xl lg:mx-auto">
                 {items.map((item) => {
                     const { id, title, desc, image } = item
-                    return <article key={id} className="flex items-center bg-blue-200 rounded-lg lg:py-0">
+                    return <article key={id} className="flex items-center bg-green-light rounded-lg lg:py-0">
                         <img src={image} className="w-32 h-full rounded-l-lg lg:w-20" alt=""/>
                         <div className="ml-3">
                             <h4 className="mb-2 text-xl">{title}</h4>

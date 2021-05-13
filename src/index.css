@@ -14,7 +14,7 @@ body {
   font-family: 'Catamaran' sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply bg-blue-100;
+  @apply bg-green-superlight;
 }
 
 q {
