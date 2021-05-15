@@ -3,7 +3,7 @@ import content from '../content'
 
 const Navigation = () => {
     return (
-        <div className="bg-indigo-900">
+        <div className="bg-blue-bottle-light-500">
             <div className="flex items-centered justify-between w-10/12 mx-auto py-3 text-indigo-100 font-bebas-neue">
 
             <h1 className="text-2xl font-bold">{content.nav.logo}</h1>

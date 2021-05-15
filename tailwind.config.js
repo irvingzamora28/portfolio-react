@@ -8,6 +8,10 @@ module.exports = {
           superlight: '#f5f7f4',
           aguacate: '#03ab00',
           light: '#b5dca1'
+        },
+        blue: {
+          bottle: '#191d29',
+          'bottle-light-500': '#4f5b80'
         }
       },
       screens: {
