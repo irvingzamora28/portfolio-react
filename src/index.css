@@ -16,7 +16,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   @apply bg-green-superlight;
 }
-
-q {
-  font-family: 'Parisienne', cursive;
+.font-bebas-neue {
+  font-family: 'Bebas Neue', cursive;
 }
