@@ -1,3 +1,5 @@
+import Footer from "./components/Footer"
+
 const { default: Body } = require("./components/Body")
 const { default: Contact } = require("./components/Contact")
 const { default: Header } = require("./components/Header")
@@ -12,6 +14,7 @@ const App = () => {
 		<Body />
 		<Projects />
 		<Contact />
+		<Footer />
 		</>
   	);
 }
