@@ -15,7 +15,7 @@ export default {
       typical: [
         'Web Developer. 🖥',
         2000,
-        'Youtuber. 📹',
+        'Other. 📹',
         2000,
         'Mobile Developer',
         2000,
