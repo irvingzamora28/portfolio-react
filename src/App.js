@@ -1,22 +1,23 @@
-import Footer from "./components/Footer"
-
-const { default: Body } = require("./components/Body")
-const { default: Contact } = require("./components/Contact")
-const { default: Header } = require("./components/Header")
-const { default: Navigation } = require("./components/Navigation")
-const { default: Projects } = require("./components/Projects")
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import BlogPost from './components/BlogPost'
+import Home from './components/Home'
+import Page404 from './components/Page404';
 
 const App = () => {
 	return (
-		<>
-		<Navigation />
-		<Header />
-		<Body />
-		<Projects />
-		<Contact />
-		<Footer />
-		</>
-  	);
+		<Router>
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path='/post' element={<BlogPost />} />
+				<Route path='*' element={<Page404 />} />
+			</Routes>
+
+		</Router>
+	);
 }
+
+let MyRoute = () => {
+	return <p>Hello!</p>;
+  };
 
 export default App;
