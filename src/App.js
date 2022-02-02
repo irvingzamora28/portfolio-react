@@ -5,6 +5,10 @@ import Home from './components/Home'
 import Page404 from './components/Page404';
 
 const App = () => {
+
+	const x = 5;
+	console.log(x);
+
 	return (
 		<Router>
 			<Routes>
