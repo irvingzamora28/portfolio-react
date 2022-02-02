@@ -4,13 +4,13 @@ import Navigation from './Navigation'
 const BlogPost = () => {
     return (
         <div>
-			<Navigation />
+            <Navigation />
             <div className="container w-full md:max-w-3xl mx-auto pt-20">
 
                 <div className="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
 
                     <div className="font-sans">
-                        <p className="text-base md:text-sm text-indigo-500 font-bold">&lt; <a href="#" className="text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">BACK TO BLOG</a></p>
+                        <p className="text-base md:text-sm text-indigo-500 font-bold">&lt; <button className="text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">BACK TO BLOG</button></p>
                         <h1 className="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">Welcome to Minimal Blog</h1>
                         <p className="text-sm md:text-base font-normal text-gray-600">Published 19 February 2019</p>
                     </div>
@@ -33,7 +33,7 @@ const BlogPost = () => {
                         <li className="py-3">Morbi varius posuere blandit. Praesent gravida bibendum neque eget commodo. Duis auctor ornare mauris, eu accumsan odio viverra in. Proin sagittis maximus pharetra. Nullam lorem mauris, faucibus ut odio tempus, ultrices aliquet ex. Nam id quam eget ipsum luctus hendrerit. Ut eros magna, eleifend ac ornare vulputate, pretium nec felis.</li>
                         <li className="py-3">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vitae pretium elit. Cras leo mauris, tristique in risus ac, tristique rutrum velit. Mauris accumsan tempor felis vitae gravida. Cras egestas convallis malesuada. Etiam ac ante id tortor vulputate pretium. Maecenas vel sapien suscipit, elementum odio et, consequat tellus.</li>
                     </ol>
-                            <img src="https://source.unsplash.com/collection/1346951/1000x500?sig=1" />
+                    <img alt="Example" src="https://source.unsplash.com/collection/1346951/1000x500?sig=1" />
                     <blockquote className="border-l-4 border-indigo-500 italic my-8 pl-8 md:pl-12">Example of blockquote - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.</blockquote>
 
                     <p className="py-6">Example code block:</p>
@@ -52,7 +52,7 @@ const BlogPost = () => {
                 </div>
 
                 <div className="text-base md:text-sm text-gray-500 px-4 py-6">
-                    Tags: <a href="#" className="text-base md:text-sm text-indigo-500 no-underline hover:underline">Link</a> . <a href="#" className="text-base md:text-sm text-indigo-500 no-underline hover:underline">Link</a>
+                    Tags: <button className="text-base md:text-sm text-indigo-500 no-underline hover:underline">Link</button> . <button className="text-base md:text-sm text-indigo-500 no-underline hover:underline">Link</button>
                 </div>
 
                 <hr className="border-b-2 border-gray-400 mb-8 mx-4" />
@@ -91,11 +91,11 @@ const BlogPost = () => {
                 <div className="font-sans flex justify-between content-center px-4 pb-12">
                     <div className="text-left">
                         <span className="text-xs md:text-sm font-normal text-gray-600">&lt; Previous Post</span><br />
-                        <p><a href="#" className="break-normal text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">Blog title</a></p>
+                        <p><button className="break-normal text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">Blog title</button></p>
                     </div>
                     <div className="text-right">
                         <span className="text-xs md:text-sm font-normal text-gray-600">Next Post &gt;</span><br />
-                        <p><a href="#" className="break-normal text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">Blog title</a></p>
+                        <p><button className="break-normal text-base md:text-sm text-indigo-500 font-bold no-underline hover:underline">Blog title</button></p>
                     </div>
                 </div>
 

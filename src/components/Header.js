@@ -29,7 +29,7 @@ const Header = () => {
                             className="inline-block"
                         />
                     </h1>
-                    <ScrollLink to="body" smooth={true}>
+                    <ScrollLink to="body" smooth="true">
                     <button className="animate-float bg-blue-bottle-light-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg shadow-lg">{content.header.btnText}</button>
                     </ScrollLink>
                 </div>

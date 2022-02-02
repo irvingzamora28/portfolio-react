@@ -37,10 +37,10 @@ const NavigationHome = () => {
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4">
-                            <ScrollLink to="projects" smooth={true}  onClick={toggleOpen}>
+                            <ScrollLink to="projects" smooth="true"  onClick={toggleOpen}>
                                     <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Projects</button>
                                 </ScrollLink>
-                                <ScrollLink to="contact" smooth={true}  onClick={toggleOpen}>
+                                <ScrollLink to="contact" smooth="true"  onClick={toggleOpen}>
                                     <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</button>
                                 </ScrollLink>
                             </div>
@@ -52,10 +52,10 @@ const NavigationHome = () => {
 
             <div className={classNames( open ? 'flex' : 'hidden', 'sm:hidden' )} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 w-full">
-                    <ScrollLink to="projects" smooth={true}  onClick={toggleOpen}>
+                    <ScrollLink to="projects" smooth="true"  onClick={toggleOpen}>
                         <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</button>
                     </ScrollLink>
-                    <ScrollLink to="contact" smooth={true}  onClick={toggleOpen}>
+                    <ScrollLink to="contact" smooth="true"  onClick={toggleOpen}>
                         <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</button>
                     </ScrollLink>
                 </div>

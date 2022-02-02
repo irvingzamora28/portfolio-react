@@ -37,7 +37,7 @@ const Navigation = () => {
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4">
-                                <Link to="/" smooth={true} onClick={toggleOpen}>
+                                <Link to="/" smooth="true" onClick={toggleOpen}>
                                     <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</button>
                                 </Link>
                             </div>
@@ -49,7 +49,7 @@ const Navigation = () => {
 
             <div className={classNames(open ? 'flex' : 'hidden', 'sm:hidden')} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1 w-full">
-                    <Link to="/" smooth={true} onClick={toggleOpen}>
+                    <Link to="/" smooth="true" onClick={toggleOpen}>
                         <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</button>
                     </Link>
                 </div>
