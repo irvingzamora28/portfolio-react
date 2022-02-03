@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import content from '../content'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Link as ScrollLink } from 'react-scroll'
+import { Link } from 'react-router-dom'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -43,6 +44,9 @@ const NavigationHome = () => {
                                 <ScrollLink to="contact" smooth="true"  onClick={toggleOpen}>
                                     <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</button>
                                 </ScrollLink>
+                                <Link to="/blog" smooth="true"  onClick={toggleOpen}>
+                                    <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -58,6 +62,9 @@ const NavigationHome = () => {
                     <ScrollLink to="contact" smooth="true"  onClick={toggleOpen}>
                         <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</button>
                     </ScrollLink>
+                    <Link to="/blog" smooth="true"  onClick={toggleOpen}>
+                        <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</button>
+                    </Link>
                 </div>
             </div>
         </nav>

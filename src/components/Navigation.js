@@ -40,6 +40,9 @@ const Navigation = () => {
                                 <Link to="/" smooth="true" onClick={toggleOpen}>
                                     <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</button>
                                 </Link>
+                                <Link to="/blog" smooth="true" onClick={toggleOpen}>
+                                    <button className="text-gray-100 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -51,6 +54,9 @@ const Navigation = () => {
                 <div className="px-2 pt-2 pb-3 space-y-1 w-full">
                     <Link to="/" smooth="true" onClick={toggleOpen}>
                         <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</button>
+                    </Link>
+                    <Link to="/blog" smooth="true" onClick={toggleOpen}>
+                        <button className="text-gray-100 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</button>
                     </Link>
                 </div>
             </div>
