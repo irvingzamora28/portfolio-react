@@ -1,11 +1,13 @@
 import React from 'react'
 import Navigation from './Navigation'
+import { data } from '../content/blog/blog1'
+import Content from './Content';
 
 const BlogPost = () => {
     return (
         <div>
             <Navigation />
-            <div className="container w-full md:max-w-3xl mx-auto pt-20">
+            <div className="container w-full md:max-w-3xl mx-auto pt-20" id="loco">
 
                 <div className="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
 
@@ -16,7 +18,7 @@ const BlogPost = () => {
                     </div>
 
 
-
+                    <Content data={data} />
 
                     <p className="py-6">
                         👋 Welcome fellow <a className="text-indigo-500 no-underline hover:underline" href="https://www.tailwindcss.com">Tailwind CSS</a> and miminal monochrome blog fan. This starter template provides a starting point to create your own minimal monochrome blog using Tailwind CSS and vanilla Javascript.
