@@ -1,6 +1,5 @@
 import React from 'react'
 import { CopyBlock, dracula } from 'react-code-blocks';
-import ReactDOM from 'react-dom';
 
 const Content = (props) => {
     const data = props.data
